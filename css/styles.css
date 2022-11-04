@@ -1,0 +1,151 @@
+/******************** TAG SELECTOR *******************/
+/*div {
+  background-color: #E4F5F9;
+} */
+
+body {
+  color: #40514E;
+  font-family: "Merriweather", serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: "Satisfy", cursive;
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  }
+
+h2 {
+  color: #66BFBF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 20px auto 50px auto;
+}
+
+h3 {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+  color: #0099FF;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+hr {
+  /* Angela has border dotted #EAF6F^ 6px; border-bottom: none;width: 4%; margin: 100px auto;*/
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: #C9CCD5;
+  margin: 100px auto 100px auto;
+  width: 4%;
+}
+/*************** CLASS SELECTORS ***************/
+.top-container {
+	background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #FAF7F0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-bottom: 20px;
+  color: #11999E;
+}
+
+.para-justify {
+  text-align: justify;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile-img {
+  margin: 80px auto 10px auto;
+  width: 20%;
+}
+
+.programming-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.trading-img {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 40px auto 40px;
+}
+
+.btn {
+  background-color: #FAF7F0;
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  border-radius: 8px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  color: #EAF6F6;
+  font-size: 20px;
+  margin: 0 auto 30px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.footer-link {
+  display: inline-block;
+  margin: 40px auto 40px auto;
+}
